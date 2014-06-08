@@ -1,0 +1,263 @@
+@import url(http://fonts.googleapis.com/css?family=Condiment);
+@import url(http://fonts.googleapis.com/css?family=Condiment|Bubbler+One);
+@import url(http://fonts.googleapis.com/css?family=Condiment|Bubbler+One|Open+Sans);
+@import url(http://fonts.googleapis.com/css?family=Julius+Sans+One);
+
+
+body {
+
+	background-color: #ebebeb; 
+}
+
+nav {
+	font-size: 20px;
+	font-family: Helvetica;
+
+	
+}
+
+#navLinks {
+	display: inline-block;
+	padding-right:40px;
+}
+
+
+
+/*****************************************************************************/
+/*
+/* Home
+/*
+/*****************************************************************************/
+.posts {
+  list-style-type: none;
+  margin-bottom: 2em;
+}
+
+.posts li {
+  line-height: 1.75em;
+}
+
+.posts span {
+  color: #aaa;
+  font-family: Monaco, "Courier New", monospace;
+  font-size: 80%;
+
+}
+
+/*****************************************************************************/
+/*
+/* Site
+/*
+/*****************************************************************************/
+
+.site {
+  font-size: 115%;
+  text-align: justify;
+  width: 42em;
+  margin: 3em auto 2em;
+  line-height: 1.5em;
+}
+
+.header a {
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.title {
+  display: inline-block;
+  margin-bottom: 2em;
+
+}
+
+.title a {
+  color: teal;
+}
+
+.title a:hover {
+  color: #000;
+}
+
+
+
+.header a.extra {
+  color: teal;
+  margin-left: 1em;
+}
+
+.header a.extra:hover {
+  color: #000;
+}
+
+.meta {
+  color: #aaa;
+}
+
+
+
+
+
+
+
+
+.htitle {
+	float:left;
+}
+
+.hnav {
+	float: right;
+	margin-top: 25px;
+}
+
+
+.hclear {
+	clear: both;
+}
+
+
+
+.nav.is-active {
+	background: red;
+}
+
+/*****************************************************************************/
+/*
+/* Contact
+/*
+/*****************************************************************************/
+
+
+.contactInfo {
+	 font-size: 80%;
+  color: #666;
+  border-top: 4px solid #eee;
+  margin-top: 2em;
+  overflow: hidden;
+}
+
+.contactInfo .contact {
+	float: left;
+  margin-right: 3em;
+
+}
+
+.contactInfo .contact a {
+  color: #teal;
+}
+
+.footer {
+  font-size: 80%;
+  color: #666;
+  border-top: 4px solid #eee;
+  margin-top: 2em;
+  overflow: hidden;
+}
+
+.footer .contact {
+  float: left;
+  margin-right: 3em;
+}
+
+.footer .contact a {
+  color: #8085C1;
+}
+
+.footer .rss {
+  margin-top: 1.1em;
+  margin-right: -.2em;
+  float: right;
+}
+
+.footer .rss img {
+  border: 0;
+}
+
+
+div {
+
+	border-radius: 5px;
+
+}
+
+#header {
+
+	color: teal;
+	width: 97.5%%;
+	height: 50px;
+	background-color: #b2b2b2;
+	margin: auto;
+	margin-bottom: 20px;
+	font-family: 'Julius Sans One', sans-serif;
+	text-align: center;
+	padding-top: 10px;
+	font-size:25px}
+
+p {
+	font-family: 'Open Sans', sans-serif;
+	color: #77736c;
+	font-size: 14px;
+}
+
+ul {
+
+	font-family: 'Open Sans', sans-serif;
+	color: #77736c;
+	font-size: 14px;
+}
+
+a {
+	font-size: 20px;
+	color: #teal;
+	font-family: 'Bubbler One', sans-serif;
+
+}
+
+#blog {
+
+font-size: 20px;
+
+}
+a:hover {
+	color: #ea9a60;
+}
+
+.date {
+
+	font-family: 'Condiment', cursive;
+	font-style: italic;
+}
+
+h1 {
+	font-family: 'Bubbler One', sans-serif;
+	text-transform: uppercase;
+	color: teal;
+
+}
+
+.title a {
+
+font-size: 30px;
+
+}
+
+h2 {
+	font-family: 'Bubbler One', sans-serif;
+	color: teal;
+
+}
+
+
+
+.showVid {
+ 
+ border-radius: 25%;
+ display: block;
+ background-color: teal;
+
+}
+
+
+.hideVid {
+
+	display: none;
+}
+
