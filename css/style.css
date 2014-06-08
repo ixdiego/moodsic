@@ -70,7 +70,7 @@ nav {
 }
 
 .title a {
-  color: orange;
+  color: teal;
 }
 
 .title a:hover {
@@ -80,7 +80,7 @@ nav {
 
 
 .header a.extra {
-  color: #256f22;
+  color: teal;
   margin-left: 1em;
 }
 
@@ -141,7 +141,7 @@ nav {
 }
 
 .contactInfo .contact a {
-  color: #256f22;
+  color: #teal;
 }
 
 .footer {
@@ -180,7 +180,7 @@ div {
 
 #header {
 
-	color: #256f22;;
+	color: teal;
 	width: 97.5%%;
 	height: 50px;
 	background-color: #b2b2b2;
@@ -206,7 +206,7 @@ ul {
 
 a {
 	font-size: 20px;
-	color: #256f22;
+	color: #teal;
 	font-family: 'Bubbler One', sans-serif;
 
 }
@@ -229,7 +229,7 @@ a:hover {
 h1 {
 	font-family: 'Bubbler One', sans-serif;
 	text-transform: uppercase;
-	color: #256f22;
+	color: teal;
 
 }
 
@@ -241,11 +241,23 @@ font-size: 30px;
 
 h2 {
 	font-family: 'Bubbler One', sans-serif;
-	color: #256f22;
+	color: teal;
 
 }
 
 
 
+.showVid {
+ 
+ border-radius: 25%;
+ display: block;
+ background-color: teal;
 
+}
+
+
+.hideVid {
+
+	display: none;
+}
 

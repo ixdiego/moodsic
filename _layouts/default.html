@@ -7,13 +7,14 @@
         <meta name="viewport" content="width=device-width">
 
         <!-- syntax highlighting CSS -->
-        <link rel="stylesheet" href="/css/syntax.css">
+        <!-- <link rel="stylesheet" href="/css/syntax.css"> -->
 
         <!-- Custom CSS -->
         <!-- <link rel="stylesheet" href="/css/main.css"> -->
+        
+        <link rel="stylesheet" href="css/normalize.css">
+        <link rel="stylesheet" href="css/foundation.min.css">
         <link rel="stylesheet" href="/css/style.css">
-
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script> 
 
     </head>
     <body>
@@ -22,75 +23,18 @@
 
       {% include nav.html %}
 
-      <div class="intro">
-        <p>Hola! Welcome to my MakerSquare blog. This entire site has been (and will continue to be) built entirely from scratch* by yours truly. It's a way for me to demonstrate the front-end web development skills I am learning at Maker Square. Read my latest blog posts about my classes below, or use the Navigation bar on top to learn a bit more about me. Thanks for visiting!</p>
-
-        <p>[*not 100% from scratch, of course...]</p>
-
-      </div>
 
       {{ content }}
 
   </div>
 
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js">
+    </script> 
+
+    <script src="js/script.js">
+    </script> 
     
-    <script>
-        $( document ).ready(function() {
-
-            console.log( 'ready!' );
-
-            // click on a nav item - write click handler on .nav
-
-            $( '.nav' ).click(function() {
-                // alert( "Handler for .click() called." );
-
-
-
-                // figure out which one i clicked on (home, about, contact) - if .nav hasClass A/B/C
-
-                if ( $(this).hasClass('home') ) {
-                    console.log("I am home");
-                    // do something
-                    // apply .is-active class to the one i clicked on - addClass is-active
-                     $('.nav').removeClass('is-active');
-
-                     $(this).addClass('is-active');
-
-                    // remove .is-active class to any other .nav items - removeClass .is-active
-                    // $('.nav').removeClass('is-active');
-                }
-
-                else if ( $(this).hasClass('about') ) {
-                    // do something
-                    console.log("about");
-
-                     $('.nav').removeClass('is-active');
-
-                     $(this).addClass('is-active');
-            
-                }
-
-               else if ( $(this).hasClass('contact') ) {
-                    // do something
-                    console.log("contact me");
-
-                    $('.nav').removeClass('is-active');
-
-
-                    $(this).addClass('is-active');
-                }
-
-
-
-               
-
-
-            });
-
-            
-
-        });
-    </script>
-
+   
     </body>
 </html>

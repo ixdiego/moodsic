@@ -1,5 +1,6 @@
 # Site settings
 title: Moodsic
+name: Moodsic
 email: your-email@domain.com
 description: "Mood and Music."
 baseurl: ""
