@@ -7,8 +7,10 @@ title: Music For Your Mood
 
 	<div class="large-3 columns">
 		
-		<ul class="side-nav" id="moods">
-		    <li class="active" id="happy"><a href="#">Happy</a>
+		<ul class="side-nav moods" id="moods">
+
+			<h4>Choose a mood</h4>
+		    <li id="happy"><a href="#">Happy</a>
 		    </li>
 		    <li id="sad"><a href="#">Sad</a>
 		    </li>
@@ -17,17 +19,41 @@ title: Music For Your Mood
 		    </li>
 		    <li id="sexy"><a href="#">Sexy</a>
 		    </li>
+		    <li id="lovestruck"><a href="#">Lovestruck</a>
+		    </li>
 		</ul>
 
 	</div>
 
-	<div class="large-9 columns">
+	
+	<div class="large-9 columns video-section">
 
-		<h1 id="videoTitle">Video Title</h1>
+		<div class="top-block">
+
+			<h2 id="videoTitle">Music for your mood</h2>
+
+			<a class="boton reloadVid is-hidden">Reload Video</a>
+
+		</div>
+
+		<div class="instructions">
+
+			<p>There is no better companion for your mood than music! </p>
+
+			<p>Click on any of the moods to the left to watch a video that will certainly fit your mood.</p>
+
+			<p>If you don't like the video or simply want to watch another fitting video for your mood, simply click on the desired mood again or the "Reload" button below the current video.</p>
+
+			<p>Enjoy!</p>
+
+
+
+
+		</div>
 		
-		<iframe id="`" width="560" height="315" src="//www.youtube.com/embed/ZpUYjpKg9KY" frameborder="0" allowfullscreen></iframe>
+		<iframe id="currentVideo" width="560" height="315" src="//www.youtube.com/" frameborder="0" allowfullscreen></iframe>
 
-		<div><button data-mood="hi" class="reloadVid hideVid">Reload Video</button></div>
+		<!-- <a class="button reloadVid hideVid">Reload Video</a> -->
 		
 	</div>
 
