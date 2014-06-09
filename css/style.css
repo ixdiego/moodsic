@@ -2,16 +2,18 @@
 @import url(http://fonts.googleapis.com/css?family=Condiment|Bubbler+One);
 @import url(http://fonts.googleapis.com/css?family=Condiment|Bubbler+One|Open+Sans);
 @import url(http://fonts.googleapis.com/css?family=Julius+Sans+One);
+@import url(http://fonts.googleapis.com/css?family=Shadows+Into+Light);
 
 
 body {
 
-	background-color: #ebebeb; 
+	background-color: black; 
 }
 
 nav {
 	font-size: 20px;
 	font-family: Helvetica;
+
 
 	
 }
@@ -19,6 +21,12 @@ nav {
 #navLinks {
 	display: inline-block;
 	padding-right:40px;
+}
+
+img.mkslogo {
+
+	margin: 10px 10px 30px 10px;
+
 }
 
 
@@ -58,29 +66,41 @@ nav {
   line-height: 1.5em;
 }
 
+.header {
+
+	margin-bottom: 50px;
+}
+
 .header a {
   font-weight: bold;
   text-decoration: none;
+  padding-right: 20px;
 }
 
 .title {
   display: inline-block;
   margin-bottom: 2em;
 
+
+
+
 }
 
 .title a {
-  color: teal;
+
+  color: #feea1b; /*Yellow*/
+
+  font-family: 'Shadows Into Light', cursive;
 }
 
 .title a:hover {
-  color: #000;
+  color: #beb014;
 }
 
 
 
 .header a.extra {
-  color: teal;
+  color: #feea1b;
   margin-left: 1em;
 }
 
@@ -126,10 +146,24 @@ nav {
 /*****************************************************************************/
 
 
+.contact p {
+
+	font-family: 'Bubbler One', sans-serif;
+	font-size: 20px;
+	color: #F2F2C2;
+
+}
+
+
+.contactRight {
+
+	margin-left: 400px;
+}
+
 .contactInfo {
 	 font-size: 80%;
   color: #666;
-  border-top: 4px solid #eee;
+ /* border-top: 4px solid #eee;*/
   margin-top: 2em;
   overflow: hidden;
 }
@@ -141,7 +175,7 @@ nav {
 }
 
 .contactInfo .contact a {
-  color: #teal;
+  color: #feea1b;
 }
 
 .footer {
@@ -180,7 +214,7 @@ div {
 
 #header {
 
-	color: teal;
+	color: #feea1b;
 	width: 97.5%%;
 	height: 50px;
 	background-color: #b2b2b2;
@@ -206,7 +240,7 @@ ul {
 
 a {
 	font-size: 20px;
-	color: #teal;
+	color: #feea1b;
 	font-family: 'Bubbler One', sans-serif;
 
 }
@@ -217,7 +251,7 @@ font-size: 20px;
 
 }
 a:hover {
-	color: #ea9a60;
+	color: #beb014;
 }
 
 .date {
@@ -229,7 +263,25 @@ a:hover {
 h1 {
 	font-family: 'Bubbler One', sans-serif;
 	text-transform: uppercase;
-	color: teal;
+	color: #A8C078;
+	display: inline-block;
+
+}
+
+h4 {
+	font-family: 'Bubbler One', sans-serif;
+	text-transform: uppercase;
+	color: #A8C078;
+	display: inline-block;
+
+}
+
+
+h2 {
+	font-family: 'Bubbler One', sans-serif;
+	text-transform: uppercase;
+	color: #A8C078;
+	display: inline-block;
 
 }
 
@@ -239,11 +291,7 @@ font-size: 30px;
 
 }
 
-h2 {
-	font-family: 'Bubbler One', sans-serif;
-	color: teal;
 
-}
 
 
 
@@ -260,4 +308,169 @@ h2 {
 
 	display: none;
 }
+
+
+.instructions {
+
+
+}
+
+.instructions p {
+
+	font-family: 'Bubbler One', sans-serif;
+	font-size: 18px;
+	color: #F2F2C2;		
+}
+
+
+.aboutparagraph p {
+
+	font-family: 'Bubbler One', sans-serif;
+	font-size: 18px;
+	color: #F2F2C2;		
+}
+/*.side-nav li a:not(.button) {
+
+	color: #A8C078;
+}
+
+.side-nav li a:not(.button):hover {
+
+	color: green;
+}
+
+.side-nav li.active a {
+	color: #feea1b;
+}
+
+
+.active {
+
+	color: red;
+}
+*/
+
+
+.side-nav.moods li a {
+	color: yellow;
+	
+}
+.side-nav.moods li.is-active a {
+	color: #feea1b;
+	border-bottom: 5px solid #feea1b;
+	display: inline-block;
+	font-weight: bold;
+}
+
+.side-nav li a:not(.button) {
+
+	color: #E49C05;
+}
+
+.side-nav li a:not(.button):hover {
+
+	color: #feea1b;
+
+}
+
+/*.top-block {
+
+	border: 1px solid red;
+}*/
+
+
+a.boton {
+    background: #A8C078;
+    border-radius: 15px;
+    /*padding: 10px 20px;*/
+    font-family: 'Bubbler One', sans-serif;
+    font-weight: bold;
+    color:white;
+    text-decoration: none;
+    text-align: center;
+    border:1px solid #a7a7a7;
+    width: 145px;
+    margin:0px auto;
+    margin-top:15px;
+    /*box-shadow: 0px 2px 1px black inset, 0px -2px 8px white, 0px 2px 5px rgba(0, 0, 0, 0.1), 0px 8px 10px rgba(0, 0, 0, 0.1);
+    -webkit-transition:box-shadow 1s;*/
+    display: inline-block;
+    float: right;
+     -webkit-transition: background-color .5s ease-in-out;
+	-moz-transition: background-color .5s ease-in-out;
+	-o-transition: background-color .5s ease-in-out;
+	transition: background-color .5s ease-in-out;
+
+}
+
+a.boton:hover{
+
+	background-color: #E49C05;
+    
+    }
+
+.is-hidden {
+	display: none;
+}
+
+.boton.is-hidden {
+	display: none;
+}
+
+.large-3 {
+
+	background-color: #444444;
+	height: 380px;
+
+}
+
+
+
+.large-9 {
+
+	padding-left: 50px;
+
+}
+
+
+@media only screen and (max-width: 40em) { 
+
+
+.large-3 {
+
+	width: 350px;
+	height: 100%;
+
+}
+
+.large-9 {
+
+	padding-left: 0px;
+}
+
+
+a.boton {
+
+	float: none;
+	margin-top: 0px;
+	font-size: 12px;
+	width: 90px;
+
+
+
+}
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
 

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="221px" height="76px" viewBox="0 0 221 76" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:sketch="http://www.bohemiancoding.com/sketch/ns">
+    <!-- Generator: Sketch 3.0.3 (7892) - http://www.bohemiancoding.com/sketch -->
+    <title>Slice 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-50%" y="-50%" width="200%" height="200%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.35 0" in="shadowBlurOuter1" type="matrix" result="shadowMatrixOuter1"></feColorMatrix>
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter2"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter2" result="shadowBlurOuter2"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.35 0" in="shadowBlurOuter2" type="matrix" result="shadowMatrixOuter2"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="shadowMatrixOuter2"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="stocks" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <path d="M21.4208333,55.2672475 C21.4208333,55.2672475 36.1094765,59.9679707 44.8397251,61.3553687 C47.4448382,61.7693693 51.8239239,59.9679707 55.3160233,58.5805728 C58.8081226,57.1931749 65.7923216,46.0939914 67.5383713,46.0939914 C69.284421,46.0939914 76.2686198,54.418379 78.0146695,53.0309811 C79.7607195,51.6435832 86.7449181,33.60741 88.4909678,33.60741 C90.2370175,33.60741 97.2212163,55.8057769 97.2212163,55.8057769 L108.570539,62.7427666 C108.570539,62.7427666 120.253729,47.2609863 121.665912,46.0939914 C123.078096,44.9269965 128.650111,46.0939914 130.396161,46.0939914 C131.66532,46.0939914 136.175043,31.2822146 138.820851,23.6400511 C139.815022,20.7684819 140.981587,20.7648515 140.981587,20.7648515 C140.981587,20.7648515 142.416868,22.3450394 143.142324,23.6400511 C146.454607,29.5528152 153.094807,41.2380986 153.094807,41.2380986 C153.094807,41.2380986 161.825056,33.60741 163.571105,33.60741 C165.317155,33.60741 172.301354,51.6435831 174.047403,51.6435831 C175.021357,51.6435831 179.285553,39.1570017 184.523702,33.60741 C189.761851,28.0578182 190.367425,25.8965239 195,25.2830224" id="line" stroke="#FEEA1B" stroke-width="3" filter="url(#filter-1)" sketch:type="MSShapeGroup"></path>
+        <text id="O" sketch:type="MSTextLayer" font-family="Avenir Next" font-size="18" font-weight="normal" fill="#FEEA1B">
+            <tspan x="100" y="47">O</tspan>
+        </text>
+        <text id="O-2" sketch:type="MSTextLayer" font-family="Avenir Next" font-size="18" font-weight="normal" fill="#FEEA1B">
+            <tspan x="116" y="33">O</tspan>
+        </text>
+        <text id="D" sketch:type="MSTextLayer" font-family="Avenir Next" font-size="18" font-weight="normal" fill="#FEEA1B">
+            <tspan x="134" y="17">D</tspan>
+        </text>
+        <text id="S" sketch:type="MSTextLayer" font-family="Avenir Next" font-size="18" font-weight="normal" fill="#FEEA1B">
+            <tspan x="149" y="27">S</tspan>
+        </text>
+        <text id="I" sketch:type="MSTextLayer" font-family="Avenir Next" font-size="18" font-weight="normal" fill="#FEEA1B">
+            <tspan x="162" y="29">I</tspan>
+        </text>
+        <text id="C" sketch:type="MSTextLayer" font-family="Avenir Next" font-size="18" font-weight="normal" fill="#FEEA1B">
+            <tspan x="169" y="33">C</tspan>
+        </text>
+    </g>
+</svg>
